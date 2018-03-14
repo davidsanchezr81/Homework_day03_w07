@@ -1,21 +1,22 @@
-public class QuadBike implements IDriveable{
+public class QuadBike extends Vehicle implements IDriveable{
 
-    int quadavgspeed;
-    int engine;
 
-    public QuadBike(int quadavgspeed, int engine) {
+    private int engine;
+
+    public QuadBike(int avgspeed, int engine) {
+        super(avgspeed);
         this.engine = engine;
-        this.quadavgspeed = quadavgspeed;
+
     }
 
-       @Override
-    public int driveDistance(int distance) {
-        return distance/quadavgspeed;
-    }
-
-    public int getAvgSpeed(){
-        return this.quadavgspeed;
-    }
+//       @Override
+//    public int driveDistance(int distance) {
+//        return distance/quadavgspeed;
+//    }
+//
+//    public int getAvgSpeed(){
+//        return this.quadavgspeed;
+//    }
 
     public int getEngine() {
         return engine;
