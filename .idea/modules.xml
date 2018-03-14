@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Driver_StretegyPattern.iml" filepath="$PROJECT_DIR$/.idea/modules/Driver_StretegyPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Driver_StretegyPattern_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Driver_StretegyPattern_main.iml" group="Driver_StretegyPattern" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Driver_StretegyPattern_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Driver_StretegyPattern_test.iml" group="Driver_StretegyPattern" />
+    </modules>
+  </component>
+</project>
